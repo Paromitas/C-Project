@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace OnlineJobRepository
 {
-    class Account
+    class User
     {
         public int Id { get; set; }
-        public char Type { get; set; }
-        public int MyProperty { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string Profile { get; set; }
+        public string Skill { get; set; }
+
     }
 }
