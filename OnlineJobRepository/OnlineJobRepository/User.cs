@@ -8,7 +8,7 @@ namespace OnlineJobRepository
 {
     class User
     {
-        public int Id { get; set; }
+        public int Id { get; private set; }
         public string Name { get; set; }
         public string Contact { get; set; }
         public string Profile { get; set; }

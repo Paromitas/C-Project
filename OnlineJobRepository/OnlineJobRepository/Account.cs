@@ -8,8 +8,30 @@ namespace OnlineJobRepository
 {
     class Account
     {
-        public int Id { get; set; }
+        #region Properties
+        //Id of the Account
+        public int Id { get; private set; }
+        //Type of Account
         public char Type { get; set; }
-        public int MyProperty { get; set; }
+        //Account LoginName
+        public string LoginName { get; set; }
+        //Account Password
+        public string Password { get; set; }
+        #endregion
+
+        #region Method
+        //Existing User SignIn
+        public void SignIn(User u)
+        {
+
+        }
+        //New User SignUp
+        public void SignUp(User u)
+        {
+
+        }
+
+
+        #endregion
     }
 }
