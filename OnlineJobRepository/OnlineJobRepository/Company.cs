@@ -8,10 +8,23 @@ namespace OnlineJobRepository
 {
     class Company
     {
-        public int Id { get; set; }
+        #region Properties
+        // CompanyId
+        public int Id { get; private set; }
+        // CompanyName
         public string Name { get; set; }
+        //Company Address
         public string Address { get; set; }
+        //Company Profile
         public string Profile { get; set; }
+        //Company Hiring
         public Boolean Hiring { get; set; }
+        #endregion
+
+        #region Methods
+        public void PostJob(Job J)
+        { }
+
+        #endregion
     }
 }
