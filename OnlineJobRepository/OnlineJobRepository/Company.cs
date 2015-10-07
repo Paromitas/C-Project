@@ -22,7 +22,7 @@ namespace OnlineJobRepository
         #endregion
 
         #region Methods
-        public void PostJob(Job J)
+        public void PostJob(Job j)
         { }
 
         #endregion
