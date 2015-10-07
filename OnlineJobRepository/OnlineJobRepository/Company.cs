@@ -15,9 +15,13 @@ namespace OnlineJobRepository
         public string Name { get; set; }
         //Company Address
         public string Address { get; set; }
+        //Company Payment Method
+        public string PaymentMethod { get; set; }
+        //Company Credit Card 
+        public int CreditCard { get; protected set;}
         //Company Profile
         public string Profile { get; set; }
-        //Company Hiring
+        //If Company is Hiring
         public Boolean Hiring { get; set; }
         #endregion
 
